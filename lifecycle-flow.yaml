@@ -1,0 +1,6 @@
+source:
+  config:
+    type: java-compile
+  release-platform-config:
+  - branch: compile-for-zillow
+    platform: comp_mobile_next-SNAPSHOT
