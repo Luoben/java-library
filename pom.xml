@@ -3,14 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
+        <artifactId>zillow-java-service-parent</artifactId>
+        <groupId>com.zillow</groupId>
+        <version>4.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.urbanairship</groupId>
     <artifactId>java-client</artifactId>
     <version>0.4.1-SNAPSHOT</version>
+    <!--version>${gte.com.urbanairship.java-client.version}</version-->
     <packaging>jar</packaging>
 
     <name>Java Client</name>
